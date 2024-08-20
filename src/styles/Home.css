@@ -2,19 +2,100 @@
   height: 512px;
   display: grid;
   border-radius: 24px;
-  background-color: #C1DCDC;
-  grid-template-columns: 2fr 1fr;
   grid-template-rows: 100%;
+  background-color: #C1DCDC;
+  grid-template-columns: 1fr 1fr;
 }
-.plants > div {
-  border: 1px solid red;
+.buy-plants {
+  margin: 48px;
+}
+.buy-plants > div:first-child > p {
+  margin: 0;
+  font-size: 64px;
+  font-weight: 800;
+  line-height: 64px;
+  font-family: "Poppins", sans-serif;
+}
+.buy-plants > div:nth-child(2) {
+  gap: 30px;
+  display: flex;
+  margin-top: 30px;
+  justify-content: left;
+}
+.buy-plants > div:nth-child(2) > span {
+  width: 1px;
+  height: auto;
+  background-color: #1E1E1E;
+}
+.buy-plants > div:nth-child(2) > p{
+  margin: 0;
+  font-size: 32px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+.buy-plants > div:nth-child(2) > p > span {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+.buy-plants > div:nth-child(3) {
+  height: 64px;
+  width: 449px;
+  display: flex;
+  padding: 0 12px;
+  margin-top: 48px;
+  border-radius: 12px;
+  align-items: center;
+  background-color: #FFFFFF;
+}
+.buy-plants > div:nth-child(3) > input {
+  flex: 1;
+  height: 100%;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  font-weight: 500;
+  padding-right: 12px;
+  border-radius: 12px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.buy-plants > div:nth-child(3) > div {
+  width: 48px;
+  height: 48px;
+  float: right;
+  display: flex;
+  border-radius: 12px;
+  align-items: center;
+  justify-content: center;
+  background-color: #C1DCDC;
 }
 .plant {
   height: 100%;
-  display: flex;
-  justify-content: center;
-  /* margin: auto; */
+  position: relative;
 }
-.plant img {
+.plant .rectangle-img {
+  bottom: 0;
+  right: 130px;
+  height: 400px;
+  position: absolute;
+}
+.plant-img {
+  bottom: 0;
+  right: 130px;
   height: 100%;
+  position: absolute;
+}
+.free-hand-img1 {
+  bottom: 100px;
+  position: absolute;
+}
+.free-hand-img2 {
+  top: 25px;
+  right: 25px;
+  height: 190px;
+  width: 112.54px;
+  position: absolute;
+  transform: rotate(15deg);
 }

@@ -15,7 +15,7 @@
   line-height: 39.02px;
   text-decoration: none;
   font-optical-sizing: auto;
-  font-family: "Bodoni Moda SC", serif;
+  font-family: "Poppins", sans-serif;
 }
 .links {
   gap: 48px;
@@ -25,7 +25,7 @@
   font-style: normal;
   align-items: center;
   justify-content: left;
-  font-family: "Mukta", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 .link {
   color: #1E1E1E80;
