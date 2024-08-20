@@ -1,0 +1,49 @@
+.navbar-container {
+  display: grid;
+  padding: 25px 0;
+  color: #000000;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFFFFF;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+.title > a {
+  color: #000000;
+  font-size: 24px;
+  font-weight: 900;
+  font-style: normal;
+  line-height: 39.02px;
+  text-decoration: none;
+  font-optical-sizing: auto;
+  font-family: "Bodoni Moda SC", serif;
+}
+.links {
+  gap: 48px;
+  display: flex;
+  font-size: 18px;
+  font-weight: 600;
+  font-style: normal;
+  align-items: center;
+  justify-content: left;
+  font-family: "Mukta", sans-serif;
+}
+.link {
+  color: #1E1E1E80;
+  text-decoration: none;
+}
+.links > a:hover {
+  color: #000000;
+}
+.link-clicked {
+  color: #000000;
+  text-decoration: none;
+}
+.icons {
+  gap: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+.icons > svg {
+  cursor: pointer;
+}

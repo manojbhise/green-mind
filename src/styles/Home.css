@@ -1,0 +1,20 @@
+.plants {
+  height: 512px;
+  display: grid;
+  border-radius: 24px;
+  background-color: #C1DCDC;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 100%;
+}
+.plants > div {
+  border: 1px solid red;
+}
+.plant {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  /* margin: auto; */
+}
+.plant img {
+  height: 100%;
+}
