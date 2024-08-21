@@ -13,6 +13,8 @@
   font-weight: 900;
   font-style: normal;
   line-height: 39.02px;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   text-decoration: none;
   font-optical-sizing: auto;
   font-family: "Poppins", sans-serif;
