@@ -15,9 +15,28 @@ const Navbar = () => {
         <Link to="/home">GREENMIND</Link>
       </div>
       <div className="links">
-        <Link className={location.pathname === "/home" ? "link-clicked":"link"} to="/home">Home</Link>
-        <Link className={location.pathname === "/products" ? "link-clicked":"link"} to="/products">Products</Link>
-        <Link className={location.pathname === "/contacts" ? "link-clicked":"link"} to="/contacts">Contacts</Link>
+        <Link
+          className={location.pathname === "/home" ? "link-clicked" : "link"}
+          to="/home"
+        >
+          Home
+        </Link>
+        <Link
+          className={
+            location.pathname === "/products" ? "link-clicked" : "link"
+          }
+          to="/products"
+        >
+          Products
+        </Link>
+        <Link
+          className={
+            location.pathname === "/contacts" ? "link-clicked" : "link"
+          }
+          to="/contacts"
+        >
+          Contacts
+        </Link>
       </div>
       <div className="icons">
         <CartIcon />

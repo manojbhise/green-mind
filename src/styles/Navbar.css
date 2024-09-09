@@ -1,10 +1,10 @@
 .navbar-container {
   display: grid;
-  padding: 25px 0;
   color: #000000;
   align-items: center;
+  padding: 25px 56px;
   justify-content: center;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   grid-template-columns: 1fr 2fr 1fr;
 }
 .title > a {
@@ -30,7 +30,7 @@
   font-family: "Poppins", sans-serif;
 }
 .link {
-  color: #1E1E1E80;
+  color: #1e1e1e80;
   text-decoration: none;
 }
 .links > a:hover {

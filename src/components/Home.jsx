@@ -13,6 +13,9 @@ import cactusIcon from "../images/Frame 7.png";
 import support from "../images/24-7-support.png";
 import assortment from "../images/assortment.png";
 import shipping from "../images/shipping.png";
+import frame1 from "../images/Frame 36.png";
+import frame2 from "../images/Frame 38.png";
+import frame3 from "../images/Frame 37.png";
 
 const Home = () => {
   return (
@@ -118,6 +121,28 @@ const Home = () => {
             <p>
               Answers to any business related inquiry 24/7 and in real-time.
             </p>
+          </div>
+        </div>
+      </div>
+      <div className="cats">
+        <p>Categories</p>
+        <p>Find what you are looking for</p>
+        <div className="cat-box">
+          <div>
+            <img src={frame1} alt="" />
+            <p>Natural Plants</p>
+          </div>
+          <div>
+            <img src={frame2} alt="" />
+            <p>Plant Accessories</p>
+            <p>Horem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <button>
+              Explore <RightArrow />
+            </button>
+          </div>
+          <div>
+            <img src={frame3} alt="" />
+            <p>Artificial Plants</p>
           </div>
         </div>
       </div>
